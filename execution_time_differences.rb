@@ -34,6 +34,7 @@ def sub_sum_bad(array)
   sum_subs = sub_list.map { |array| array.reduce(:+) }
   sum_subs.max
 end
+
 puts "sum sums bad answer is #{sub_sum_bad(list)}"
 puts "test sum sums bad answer is #{sub_sum_bad(test_list)}"
 
